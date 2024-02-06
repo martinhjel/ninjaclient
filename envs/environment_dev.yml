@@ -1,0 +1,14 @@
+name: ninja
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - requests
+  - pandas
+  # dev tools
+  - pytest
+  - ruff
+  - requests-mock
+  - pip
+  - pip:
+    - -e ..

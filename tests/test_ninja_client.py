@@ -2,7 +2,7 @@ import pandas as pd
 import pytest
 import requests_mock
 
-from ninjaclient.ninja_client import NinjaClient  # Adjust the import path as necessary
+from ninjaclient import NinjaClient  # Adjust the import path as necessary
 
 
 @pytest.fixture

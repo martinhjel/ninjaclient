@@ -17,8 +17,7 @@ pip install ninjaclient
 ## Quick Start
 Here's a quick example to get you started with NinjaClient:
 
-```
-python
+```python
 from ninjaclient import NinjaClient
 
 # Initialize the client with your API token

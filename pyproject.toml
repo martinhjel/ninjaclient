@@ -2,6 +2,8 @@
 name = "ninjaclient"
 version = "0.1.2"
 description = "A client for querying data from the Renewables Ninja API."
+homepage = "https://ninjaclient.readthedocs.io/en/latest/"
+repository = "https://github.com/martinhjel/ninjaclient"
 authors = ["Martin Hjelmeland <marhje90@gmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -22,6 +24,7 @@ sphinx-autobuild = "^2024.2.4"
 myst-parser = "^2.0.0"
 sphinx-rtd-theme = "^2.0.0"
 toml = "^0.10.2"
+coverage = "^7.4.1"
 
 [build-system]
 requires = ["poetry-core"]

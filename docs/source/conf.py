@@ -6,6 +6,11 @@
 import os
 import sys
 
+import toml
+
+with open("../../pyproject.toml", "r") as f:
+    pyproject = toml.load(f)
+
 sys.path.insert(0, os.path.abspath("../.."))
 
 # -- Project information -----------------------------------------------------
@@ -14,7 +19,7 @@ sys.path.insert(0, os.path.abspath("../.."))
 project = "ninjaclient"
 copyright = "2024, Martin Hjelmeland"
 author = "Martin Hjelmeland"
-release = "0.1.1"
+release = pyproject['tool']['poetry']['version']
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

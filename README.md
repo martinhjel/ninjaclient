@@ -27,10 +27,20 @@ df_countries = ninja_client.get_countries()
 limits = ninja_client.get_limits()
 
 # Fetch wind generation data
-df_wind, wind_meta = ninja_client.get_wind_dataframe(lat=6, lon=56, date_from="2000-01-01", date_to="2001-12-31")
+df_wind, wind_meta = ninja_client.get_wind_dataframe(
+    lat=56,
+    lon=6,
+    date_from="2000-01-01",
+    date_to="2001-12-31"
+)
 
 # Fetch solar generation data
-df_solar, solar_meta = ninja_client.get_solar_dataframe(lat=6, lon=56, date_from="2000-01-01", date_to="2001-12-31")
+df_solar, solar_meta = ninja_client.get_solar_dataframe(
+    lat=56,
+    lon=6,
+    date_from="2000-01-01",
+    date_to="2001-12-31"
+)
 ```
 
 The API Token you can find under your Renewable Ninja [profile](https://www.renewables.ninja/profile). 

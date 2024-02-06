@@ -1,7 +1,0 @@
-name: ninja
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - requests
-  - pandas

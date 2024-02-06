@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ninjaclient"
+version = "0.1.0"
+description = "A client for querying data from the Renewables Ninja API."
+authors = ["Martin Hjelmeland <marhje90@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.0"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+requests-mock = "^1.11.0"
+ruff = "^0.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120

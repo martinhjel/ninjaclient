@@ -1,4 +1,8 @@
 # NinjaClient
+
+[![Documentation Status](https://readthedocs.org/projects/ninjaclient/badge/?version=latest)](https://ninjaclient.readthedocs.io/en/latest/?badge=latest) [![codecov](https://codecov.io/gh/martinhjel/ninjaclient/graph/badge.svg?token=N9Z2OZBV91)](https://codecov.io/gh/martinhjel/ninjaclient) [![CI](https://github.com/martinhjel/ninjaclient/actions/workflows/python-package.yml/badge.svg)](https://github.com/martinhjel/ninjaclient/actions/workflows/python-package.yml)
+
+
 NinjaClient is a Python library designed to simplify accessing and querying data from the [Renewables Ninja API](https://www.renewables.ninja/). It provides an easy-to-use interface for fetching detailed renewable energy data, including solar and wind energy generation estimates. Whether you're conducting research, analyzing energy markets, or building renewable energy forecasting models, NinjaClient offers the tools you need to get the data quickly and efficiently.
 
 ## Features

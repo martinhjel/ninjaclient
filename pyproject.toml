@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ninjaclient"
-version = "0.1.2"
+version = "0.1.3"
 description = "A client for querying data from the Renewables Ninja API."
 homepage = "https://ninjaclient.readthedocs.io/en/latest/"
 repository = "https://github.com/martinhjel/ninjaclient"
